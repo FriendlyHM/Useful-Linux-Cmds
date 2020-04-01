@@ -29,6 +29,8 @@ Git Commands
 | `git config --global user.email "you@example.com"` | Define your git email|
 | `git config --global user.name "Your Name"` | Define your git username|
 | `git commit -m "[commit message]"` | Commit changes |
+| `git reset --soft HEAD~1` | undo the last commit and perform additional modifications. |
+| `git reset --hard HEAD~1` | undo the last commit and discard all changes in the working directory and index |
 | `git rm -r [file-name.txt]` | Remove a file (-r for removing folder) |
 
 ### Updating Projects
