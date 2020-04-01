@@ -26,6 +26,8 @@ Git Commands
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
+| `git config --global user.email "you@example.com"` | Define your git email|
+| `git config --global user.name "Your Name"` | Define your git username|
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (-r for removing folder) |
 
