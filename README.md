@@ -8,6 +8,7 @@ Linux Commands
 | `touch 'filename'` | Create a new file |
 | `rm -r -f filename`	| rm files (folders) |
 | `find ~ -type d -iname "Documents"` |  find folders |
+| `diff 'file1' 'file2'` | Show changes between 2 files |
 
 Git Commands
 ============
@@ -21,6 +22,7 @@ Git Commands
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
+| `git diff` | Show changes made |
 | `git config --global user.email "you@example.com"` | Define your git email|
 | `git config --global user.name "Your Name"` | Define your git username|
 | `git commit -m "[commit message]"` | Commit changes |
